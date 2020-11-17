@@ -12,7 +12,12 @@ export class ArticulosComponentComponent implements OnInit {
   constructor() {
     this.articulo=[];
     let a=new Articulo('Botas','Para correr por la calle','36', 250,0 , false, 5);
+    let b=new Articulo('Botas','Para correr por la calle','36', 250,0 , false, 5);
+    let c=new Articulo('Botas','Para correr por la calle','36', 250,0 , false, 5);
+
     this.articulo.push(a);
+    this.articulo.push(b);
+    this.articulo.push(c);
 
    }
 
